@@ -1,10 +1,23 @@
 <ul id="header">
-  <li id="logo" href="/main"><img src="../../assets/fullname-01.png" alt="logo" id="full-name"></li>
+  <li id="logo">
+    <a
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    routerLink="/">
+      <img src="../../assets/fullname-01.png" alt="logo" id="full-name">
+    </a>
+  </li>
   <li id="nav-bar">
     <ul id="nav-items">
-      <li class="nav-button"><a href="#">Portfolio</a></li>
-      <li class="nav-button"><a href="#">About Me</a></li>
-      <li class="nav-button"><a href="#">Contact</a></li>
+      <li class="nav-button">
+        <a routerLinkActive="active" routerLink="/portfolio">Portfolio</a>
+      </li>
+      <li class="nav-button">
+        <a routerLinkActive="active" routerLink="/about">About Me</a>
+      </li>
+      <li class="nav-button">
+        <a routerLinkActive="active" routerLink="/contact">Contact</a>
+      </li>
     </ul>
   </li>
 </ul>

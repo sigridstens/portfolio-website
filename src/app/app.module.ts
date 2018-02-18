@@ -7,6 +7,9 @@ import {RouterModule, Routes} from "@angular/router";
 import {ModuleWithProviders, NgModule} from '@angular/core';
 import {FooterComponent} from './footer/footer.component';
 import {HomeComponent} from './home/home.component';
+import {AboutComponent} from "./about/about.component";
+import {ContactComponent} from "./contact/contact.component";
+import {PortfolioComponent} from "./portfolio/portfolio.component";
 
 
 const appRoutes: Routes = [
@@ -17,19 +20,19 @@ const appRoutes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
+  },
+  {
+    path: 'portfolio',
+    component: PortfolioComponent
   }
-  // {
-  //   path: 'about',
-  //   component: PostPageComponent
-  // },
-  // {
-  //   path: 'contact',
-  //   component: AboutComponent
-  // },
-  // {
-  //   path: 'portfolio',
-  //   component: CalendarComponent
-  // }
   ];
 
 export const appRouting: ModuleWithProviders = RouterModule.forRoot(appRoutes);
@@ -39,7 +42,10 @@ export const appRouting: ModuleWithProviders = RouterModule.forRoot(appRoutes);
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    ContactComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
