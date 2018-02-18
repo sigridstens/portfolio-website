@@ -6,13 +6,18 @@ import {HeaderComponent} from "./header/header.component";
 import {RouterModule, Routes} from "@angular/router";
 import {ModuleWithProviders, NgModule} from '@angular/core';
 import {FooterComponent} from './footer/footer.component';
+import {HomeComponent} from './home/home.component';
 
 
 const appRoutes: Routes = [
-  // {
-  //   path: 'home',
-  //   component: FeedComponent
-  // },
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: '',
+    component: HomeComponent
+  }
   // {
   //   path: 'about',
   //   component: PostPageComponent
@@ -33,7 +38,8 @@ export const appRouting: ModuleWithProviders = RouterModule.forRoot(appRoutes);
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

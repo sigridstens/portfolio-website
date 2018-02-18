@@ -1,0 +1,32 @@
+
+#body-content {
+  display: inline-flex;
+  align-items: flex-start;
+
+}
+
+#photo {
+  flex: 3;
+}
+
+#space-landing {
+  width: 100%;
+  padding: 5%;
+}
+
+#body-text {
+  flex: 2;
+  padding: 3% 5% 0 0;
+}
+
+a {
+  color: #2d0415;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  padding-top: .5em;
+
+}
