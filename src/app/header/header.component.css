@@ -1,1 +1,45 @@
 
+#header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+#logo {
+  flex: 1;
+  align-self: flex-start;
+  padding: 50px 0 25px 0;
+}
+
+#full-name {
+  width: 100%;
+}
+
+
+#nav-bar {
+  flex: 2;
+  padding: 50px 0 0 0
+}
+#nav-items {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  width: 100%;
+  line-height: 2em;
+  display: inline-flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-button {
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+a {
+  color: #2d0415;
+  text-decoration: none;
+}
+
