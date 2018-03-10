@@ -5,18 +5,16 @@
 
 }
 
-#photo {
-  flex: 3;
-}
-
 #space-landing {
-  width: 100%;
-  padding: 5%;
+  float: left;
+  width: 60%;
+  margin: 0 2% 0 0;
 }
 
 #body-text {
-  flex: 2;
-  padding: 3% 5% 0 0;
+  width: 100%;
+  padding: 0;
+  margin: 0 5% 5% 5%;
 }
 
 a {
@@ -27,6 +25,83 @@ a {
 h1 {
   font-family: 'Overpass', sans-serif;
   font-weight: 600;
-  padding-top: .5em;
+  margin: 0;
+}
 
+#bar {
+  width: 100%;
+  margin: 0;
+}
+
+#contact-header {
+  display: inline-flex;
+  justify-content: center;
+  width: 90%;
+  padding: 5%;
+}
+#contact-title {
+  flex: 1;
+  text-align: center;
+}
+
+#reach-out {
+  width: auto;
+}
+#contact {
+  list-style: none;
+  width: 60%;
+  display: inline-flex;
+  justify-content: space-around;
+  padding: 0 20% 0 20%;
+}
+
+.icon {
+  width: 20%;
+  height: 20%;
+}
+
+/** for mobile **/
+
+@media screen and (max-width: 500px){
+  h1{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #body-content {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  #space-landing {
+    padding: 5% 0 5% 0;
+    width: 100%;
+  }
+
+  #body-text {
+    width: auto;
+  }
+
+  .icon {
+    width: 20%;
+  }
+
+  #contact {
+    padding: 0 5% 0 5%;
+    width: 90%;
+  }
+
+}
+
+/**for large screens**/
+@media screen and (min-width: 1200px) {
+  #body-content {
+    display: inline-flex;
+  }
+  #space-landing {
+    height: auto;
+
+  }
 }

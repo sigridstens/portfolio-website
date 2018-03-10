@@ -1,0 +1,47 @@
+h1 {
+  text-align: left;
+  -webkit-margin-before: 0;
+  margin-left: 15%;
+
+}
+
+.portfolio {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.p {
+  display: inline-flex;
+  margin: 2vw;
+}
+
+#1{
+  flex: 1;
+
+}
+
+#2{
+  flex: 2;
+
+}
+
+#3{
+  flex: 1;
+
+}
+
+#4 {
+  flex: 2;
+
+}
+
+#5 {
+  flex: 1;
+
+}
+
+
+

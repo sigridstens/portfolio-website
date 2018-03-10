@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   list-style: none;
+  -webkit-margin-after: 0;
+
 }
 
 #logo {
@@ -46,3 +48,61 @@ a {
 .active {
   color: #ffb100 !important;
 }
+
+@media screen and (max-width: 768px){
+  #header{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  #logo {
+    flex: 1;
+    width: 65%;
+    align-self: center;
+  }
+  #nav-bar {
+    flex: 1;
+    align-self: center;
+    justify-self: stretch;
+    padding: 0;
+    width: 100%;
+  }
+  #nav-items{
+    justify-content: space-around;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #header{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  #logo {
+    flex: 1;
+    width: 80%;
+    align-self: center;
+    padding: 5% 0 0 0;
+  }
+  #nav-bar {
+    flex: 1;
+    align-self: center;
+    justify-self: stretch;
+    padding: 0;
+    width: 100%;
+  }
+
+  #nav-items{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+  }
+  .nav-button{
+    font-size: 25px;
+  }
+}
+
