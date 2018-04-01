@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import 'bootstrap/dist/css/bootstrap.css';
 
 @Component({
@@ -7,6 +7,10 @@ import 'bootstrap/dist/css/bootstrap.css';
   styleUrls: ['./footer.component.css']
 })
 
-export class FooterComponent {
+export class FooterComponent implements OnInit {
+
+  ngOnInit() {
+    window.scrollTo(0,0)
+  }
 
 }

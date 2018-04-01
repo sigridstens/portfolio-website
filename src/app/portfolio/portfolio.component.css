@@ -12,43 +12,17 @@ h1 {
   justify-content: center;
   width: 100%;
 }
-#1{
-  width: 75px;
-  height: 75px;
-}
+
 .p {
   margin: 2vw;
 
 }
 
-
-
-#2{
-  flex: 2;
-  width: 40%;
-
+#port7 {
+  justify-self: flex-start;
+  margin: 0 0 0 10%;
 }
 
-#3{
-
+#port8 {
+  display: none;
 }
-
-#4 {
-
-}
-
-
-#5 {
-  flex: 1;
-
-}
-
-#business-card {
-}
-
-#holiday {
-
-}
-
-
-
