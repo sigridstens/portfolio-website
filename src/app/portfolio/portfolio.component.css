@@ -1,7 +1,7 @@
 h1 {
   text-align: left;
   -webkit-margin-before: 0;
-  margin-left: 15%;
+  margin-left: 5%;
 
 }
 
@@ -12,34 +12,41 @@ h1 {
   justify-content: center;
   width: 100%;
 }
-
-.p {
-  display: inline-flex;
-  margin: 2vw;
-}
-
 #1{
-  flex: 1;
+  width: 75px;
+  height: 75px;
+}
+.p {
+  margin: 2vw;
 
 }
+
+
 
 #2{
   flex: 2;
+  width: 40%;
 
 }
 
 #3{
-  flex: 1;
 
 }
 
 #4 {
-  flex: 2;
 
 }
 
+
 #5 {
   flex: 1;
+
+}
+
+#business-card {
+}
+
+#holiday {
 
 }
 

@@ -1,6 +1,90 @@
 h1 {
   text-align: left;
   -webkit-margin-before: 0;
-  margin-left: 15%;
+  margin-left: 5%;
+
+}
+
+#summary {
+  margin: 0 5% 0 5%;
+}
+
+#tryptic {
+  display: inline-flex;
+  margin: 1% 3% 1% 3%;
+  align-items: flex-start;
+
+}
+
+.trypticpane {
+  flex: 1;
+  margin: 2%;
+  width: 26%;
+  height: auto;
+}
+
+#experiences-heading {
+  margin: 0 5% 0 5%
+}
+
+#resume-link {
+  margin: 2% 0 4% 0;
+}
+
+#about-body-text {
+  display: block;
+  margin: 0 5% 0 5%;
+  width: 90%
+
+}
+
+#about-cta-icon {
+  margin: 0% 0 10% 5%;
+  width: 25vw;
+  float: right;
+}
+
+#about-cta-icon-small {
+  display: none;
+}
+
+#about-CTA-mobile {
+  display: none;
+}
+
+/**for small screens**/
+@media screen and (max-width:760px){
+  #about-cta-icon-small {
+    display: block;
+    width: 60%;
+    margin: 10% 20% 20% 20%;
+  }
+  #about-cta-icon {
+    display: none;
+
+
+  }
+  #about-CTA {
+    text-align: center;
+    margin: 5% 0 0 0;
+  }
+}
+
+/**for mobile**/
+@media screen and (max-width:450px) {
+  #middle {
+    display: none;
+  }
+  #right {
+    display: none;
+  }
+
+  #about-CTA {
+    display: none;
+  }
+  #about-CTA-mobile {
+    display: block;
+    text-align: center;
+  }
 
 }

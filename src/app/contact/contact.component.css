@@ -1,6 +1,115 @@
 h1 {
   text-align: left;
   -webkit-margin-before: 0;
-  margin-left: 15%;
+  margin-left: 5%;
 
 }
+
+a {
+  text-decoration: none;
+}
+
+#contact-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5% 2% 5%;
+  width: 90%;
+}
+
+#contact-CTA {
+  flex: 1;
+  width: 75%;
+}
+
+#contact-block {
+  flex: 3;
+  width: 20%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 3% 5% 3% 0;
+}
+.contact {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.contact-link {
+  width: 100%;
+}
+
+.contact-icon {
+  flex: 1;
+  width: 3.5vw;
+  margin: 3% 10% 3% 3%;
+}
+
+.contact-text {
+  flex: 3;
+  width: 75%;
+  margin: 0;
+  color: black
+}
+
+#project-request {
+  margin: 10% auto;
+  width: 60%;
+  line-height: 3vw;
+
+}
+
+form {
+  padding: 5%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #063b87;
+  width: 90%;
+}
+input {
+  padding: 1%;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+}
+input[name="name"] {
+  width: 30%;
+  margin: 0 3% 0 0;
+}
+
+input[name="email"] {
+  width: 41%;
+}
+
+input[name="projecttitle"] {
+  width: 87%;
+}
+
+textarea {
+  width: 100%;
+  height: 10vw;
+  border-color: #70032d;
+  border-width: 2px;
+}
+
+input[type=button] {
+  background-color: #ff4e00;
+  color: white;
+  padding: 1.25%;
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
+input[type=text] {
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #70032d;
+}
+
+

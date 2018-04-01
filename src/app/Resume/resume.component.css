@@ -1,0 +1,21 @@
+h2{
+  margin: 0 10% 0 15%;
+
+}
+
+img {
+  margin: 0 10% 0 10%;
+  width: 70%;
+
+}
+
+@media screen and (max-width:768px){
+  img {
+    display: none;
+  }
+  h2 {
+    margin: 10% 0 5% 0;
+    text-align: center;
+  }
+
+}

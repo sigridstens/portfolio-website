@@ -10,6 +10,14 @@ import {HomeComponent} from './home/home.component';
 import {AboutComponent} from "./about/about.component";
 import {ContactComponent} from "./contact/contact.component";
 import {PortfolioComponent} from "./portfolio/portfolio.component";
+import {ResumeComponent} from "./Resume/resume.component";
+import {AnnualUpdateComponent} from "./portfolio/annualupdate/annualupdate.component";
+import {FarkleComponent} from "./portfolio/farkle/farkle.component";
+import {FizziologyComponent} from "./portfolio/Fizziology/fizziology.component";
+import {ManifestoComponent} from "./portfolio/manifesto/manifesto.component";
+import {PersonalBrandingComponent} from "./portfolio/personal branding/personalbranding.component";
+import {SeatoSanComponent} from "./portfolio/SEA to SAN/seatosan.component";
+import {ValentineComponent} from "./portfolio/Valentine/valentine.component";
 
 
 const appRoutes: Routes = [
@@ -32,8 +40,40 @@ const appRoutes: Routes = [
   {
     path: 'portfolio',
     component: PortfolioComponent
-  }
-  ];
+  },
+  {
+    path: 'resume',
+    component: ResumeComponent
+  },
+  {
+    path: 'portfolio/annualupdate',
+    component: AnnualUpdateComponent
+  },
+  {
+    path: 'portfolio/farkle',
+    component: FarkleComponent
+  },
+  {
+    path: 'portfolio/fizziology',
+    component: FizziologyComponent
+  },
+  {
+    path: 'portfolio/manifesto',
+    component: ManifestoComponent
+  },
+  {
+    path: 'portfolio/personalbranding',
+    component: PersonalBrandingComponent
+  },
+  {
+    path: 'portfolio/seatosan',
+    component: SeatoSanComponent
+  },
+  {
+    path: 'portfolio/valentine',
+    component: ValentineComponent
+  },
+];
 
 export const appRouting: ModuleWithProviders = RouterModule.forRoot(appRoutes);
 
@@ -45,7 +85,16 @@ export const appRouting: ModuleWithProviders = RouterModule.forRoot(appRoutes);
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ResumeComponent,
+    AnnualUpdateComponent,
+    FarkleComponent,
+    FizziologyComponent,
+    ManifestoComponent,
+    PersonalBrandingComponent,
+    SeatoSanComponent,
+    ValentineComponent
+
   ],
   imports: [
     BrowserModule,

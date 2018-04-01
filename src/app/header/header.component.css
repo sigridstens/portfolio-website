@@ -87,6 +87,7 @@ a {
     align-self: center;
     padding: 5% 0 0 0;
   }
+
   #nav-bar {
     flex: 1;
     align-self: center;
@@ -96,13 +97,14 @@ a {
   }
 
   #nav-items{
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding: 0;
   }
   .nav-button{
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 

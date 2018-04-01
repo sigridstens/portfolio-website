@@ -2,16 +2,17 @@
 #body-content {
   display: inline-flex;
   align-items: flex-start;
+  margin-bottom: 5%;
 
 }
 
 #space-landing {
   float: left;
   width: 60%;
-  margin: 0 2% 0 0;
+  margin: 0 3% 0 0;
 }
 
-#body-text {
+#home-body-text {
   width: 100%;
   padding: 0;
   margin: 0 5% 5% 5%;
@@ -33,6 +34,9 @@ h1 {
   margin: 0;
 }
 
+#contact-bar {
+  margin: 10% 5%;
+}
 #contact-header {
   display: inline-flex;
   justify-content: center;
@@ -42,6 +46,7 @@ h1 {
 #contact-title {
   flex: 1;
   text-align: center;
+  margin: 5%;
 }
 
 #reach-out {
@@ -56,15 +61,21 @@ h1 {
 }
 
 .icon {
+  width: 100%;
+}
+.icon-container {
   width: 20%;
   height: 20%;
 }
-
 /** for mobile **/
 
 @media screen and (max-width: 500px){
   h1{
     padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+  }
+  p {
     margin: 0;
   }
 }
