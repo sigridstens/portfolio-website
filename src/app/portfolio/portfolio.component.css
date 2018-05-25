@@ -26,3 +26,16 @@ h1 {
 #port8 {
   display: none;
 }
+
+@media screen and (max-width: 1215px) {
+  .portfolio {
+    display: inline-flex;
+    flex-direction: column;
+    }
+  img {
+    width: 90%;
+    margin: 5%;
+    height: auto;
+  }
+
+}

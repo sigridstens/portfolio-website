@@ -17,7 +17,11 @@ a {
   width: 90%;
 }
 
-#contact-CTA {
+#contact-CTA-smallscreen {
+  display: none;
+}
+
+#contact-CTA-largescreen {
   flex: 1;
   width: 75%;
 }
@@ -54,7 +58,7 @@ a {
   flex: 3;
   width: 75%;
   margin: 0;
-  color: black
+  color: black;
 }
 
 #project-request {
@@ -113,3 +117,65 @@ input[type=text] {
 }
 
 
+@media screen and (max-width: 1340px){
+  #contact-container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contact-block {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 5% 0 5% 0;
+
+  }
+
+  #contact-CTA-largescreen {
+    width: 100%;
+  }
+
+  .contact {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 995px){
+  #contact-container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contact-block {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 5% 5% 5% 5%;
+
+  }
+  #contact-CTA-largescreen {
+    display: none;
+  }
+
+  #contact-CTA-smallscreen {
+    display: block;
+    width: 100%;
+    padding: 2% 0 5% 0;
+  }
+
+  .contact-link {
+    width: 90%;
+    padding: 0 5% 0 5%;
+  }
+
+  .contact-text {
+    display: none;
+  }
+
+}
